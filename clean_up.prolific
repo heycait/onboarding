@@ -5,10 +5,10 @@ Do you have any idea **[how much all this costs](https://cloud.google.com/produc
 ### How?
 List BOSH deployments by running `bosh deployments`.
 Run `bosh -d <DEPLOYMENT-NAME> delete-deployment` for each of them.
+Run `bosh clean-up --all
 L: gcp
 ---
 Destroy the BOSH director
 ### How?
-Run `bbl delete-lbs` to destroy your load balancer.
 Run `bbl destroy` to tear down your BOSH director. Bye, Felicia!
 L: gcp
